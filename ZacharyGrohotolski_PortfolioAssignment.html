@@ -1,8 +1,18 @@
+/* 
+Name: [Zachary Grohotolski]
+Student ID: [5277]
+Course: [IST 256]
+Assignment: HTML
+Date: [2/1/2026]
+*/
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="CSS Files/CSS_File1.css">
+    <script src="Main.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal portfolio page showcasing skills, projects, and contact information.">
     <meta name="author" content="Zachary Grohotolski">
@@ -15,16 +25,18 @@
 <header>
     <h1>Zachary Grohotolski</h1>
     <p></p>
-    <img src="headshotZG.jpg" alt="Zachary Grohotolski, Third Year Student" width="200" height="200">
+    <img src="headshotZG.jpg" alt="Zachary Grohotolski, Third Year Student" id="projectImage" width="200" height="200">
+    
+  <button id="darkModeToggle">Toggle Dark Mode</button>
 </header>
 
 <!-- ================= NAVIGATION ================= -->
 <nav aria-label="Main navigation">
     <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </ul>
 </nav>
 
@@ -154,6 +166,12 @@
     <p>2026 Zachary Grohotolski. All rights reserved.</p>
     <p>Last updated: <time datetime="2026-01-26">January 26, 2026</time></p>
 </footer>
+<footer class="site-footer">
+    <p>© 2026 Zachary Grohotolski</p>
+    <p>Last updated: <time datetime="2026-01-26">January 26, 2026</time></p>
+</footer>
+
+
 
 </body>
 </html>
