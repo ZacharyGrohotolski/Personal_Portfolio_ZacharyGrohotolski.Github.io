@@ -8,10 +8,10 @@ Date: [2/8/2026]
 
 
 // Buttons
-var skillsButton = document.getElementById("skillsBtn");
-var aboutButton = document.getElementById("aboutBtn");
-var projectButton = document.getElementById("projectBtn");
-var contactButton = document.getElementById("contactBtn");
+var skillsButton = document.getElementById("skills");
+var aboutButton = document.getElementById("about");
+var projectButton = document.getElementById("experience");
+var contactButton = document.getElementById("contact");
 
 // Sections
 var skillsSection = document.getElementById("skillsSection");
@@ -61,7 +61,7 @@ if (projectButton) projectButton.onclick = showProject;
 if (contactButton) contactButton.onclick = showContact;
 
 // Hover effect for project image
-var projectImage = document.getElementById("projectImage");
+var projectImage = document.getElementById("ProjectImage");
 
 function enlargeImage() {
     projectImage.style.transform = "scale(1.1)";
@@ -84,3 +84,8 @@ function showMessage() {
 }
 
 if (submitButton) submitButton.onclick = showMessage;
+const toggleButton = document.getElementById("darkModeToggle");
+
+toggleButton.addEventListener("click", function() {
+  document.body.classList.toggle("dark-mode");
+});
