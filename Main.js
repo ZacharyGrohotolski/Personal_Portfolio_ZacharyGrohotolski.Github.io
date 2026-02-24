@@ -23,7 +23,7 @@ if (toggleButton) {
     });
 }
 
-// ================= IMAGE HOVER =================
+// ================= IMAGE HOVER (optional fix) =================
 const projectImage = document.getElementById("projectImage");
 
 if (projectImage) {
@@ -34,5 +34,4 @@ if (projectImage) {
     projectImage.addEventListener("mouseout", function () {
         projectImage.style.transform = "scale(1)";
     });
-
 }
