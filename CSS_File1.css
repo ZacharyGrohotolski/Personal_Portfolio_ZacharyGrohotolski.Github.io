@@ -60,30 +60,6 @@ footer {
     color: white;
 }
 
-.dark-mode {
-    background-color: #121212;
-    color: white;
-}
-
-.dark-mode a {
-    color: #4d66cc;
-}
-
-.dark-mode button {
-    background-color: #1e1e1e;
-    color: #4d66cc;
-}
-
-.dark-mode section {
-    background-color: #1e1e1e;
-    color: white;
-}
-
-.dark-mode header,
-.dark-mode footer {
-    background-color: #111;
-}
-
 .accordion-btn {
     width: 100%;
     padding: 15px;
@@ -122,4 +98,28 @@ html {
     width: 200px;
     height: 200px;
     object-fit: cover;
+
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode a {
+    color: #4d66cc;
+}
+
+.dark-mode button {
+    background-color: #1e1e1e;
+    color: #4d66cc;
+}
+
+.dark-mode section {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111;
 }
